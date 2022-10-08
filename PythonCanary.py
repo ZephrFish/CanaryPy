@@ -12,3 +12,4 @@ headers = {
 }
     
 response = requests.post(f'https://{DOMAIN}.canary.tools/api/v1/canarytoken/create', data=data, headers=headers)
+print(response)
